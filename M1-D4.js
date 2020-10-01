@@ -21,6 +21,16 @@ area(2, 4);
 Write a function "crazySum" which receives two given integers. If the two values are same, then returns triple their sum.
 */
 
+function crazySum(a, b) {
+  if (a == b) {
+    return 3 * (a + b);
+  } else {
+    return a + b;
+  }
+}
+console.log(crazySum(5, 10));
+console.log(crazySum(5, 5));
+
 /* EXERCISE 3
 Write a function "crazyDiff" that computes the 
 absolute difference between a given number and 19. 
