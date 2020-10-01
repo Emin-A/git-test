@@ -39,10 +39,20 @@ the specified
 number is greater than 19.
 */
 
-/* EXERCISE 4
-Write a function "boundary" which accept an integer N and returns true if N is within 20 and 100 (included) or equal to 400.
-*/
+function crazyDiff(n) {
+  if (n <= 19) {
+    return 19 - n;
+  } else {
+    return (n - 19) * 3;
+  }
+}
 
+console.log(crazyDiff(20));
+
+/* EXERCISE 4
+Write a function "boundary" which accept an integer N and returns true if 
+N is within 20 and 100 (included) or equal to 400.
+*/
 /* WRITE YOUR CODE HERE */
 
 /* EXERCISE 5
