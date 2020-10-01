@@ -1,3 +1,4 @@
+// Just a comment
 /*
 ASSIGNMENT RULES
 - All the answers must be in JavaScript
@@ -9,6 +10,12 @@ ASSIGNMENT RULES
 /* EXERCISE 1
 Write a function "area" which receives 2 parameters (l1,l2) and calculate the area of the rectangle.
 */
+
+function area(l1, l2) {
+  console.log(l1 * l2);
+}
+
+area(2, 4);
 
 /* EXERCISE 2
 Write a function "crazySum" which receives two given integers. If the two values are same, then returns triple their sum.
